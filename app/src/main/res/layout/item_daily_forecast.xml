@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/tvDayName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Today"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/text_primary_light"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivDailyIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_sunny"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/tvDailyDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Sunny"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/text_secondary_light"
+        android:layout_marginStart="16dp"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvDailyLowTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18°"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDailyHighTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25°"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary_light"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

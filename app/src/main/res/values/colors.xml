@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iOS-style colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary_blue">#007AFF</color>
+    <color name="primary_blue_dark">#0056CC</color>
+    <color name="primary_light">#007AFF</color>
+    <!-- Alias for legacy references -->
+    <color name="primary_color">#007AFF</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F2F2F7</color>
+    <color name="background_dark">#1C1C1E</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#2C2C2E</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#000000</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#8E8E93</color>
+    <color name="text_secondary_dark">#98989D</color>
+    
+    <!-- Weather Colors -->
+    <color name="sunny">#FFD60A</color>
+    <color name="cloudy">#8E8E93</color>
+    <color name="rainy">#5AC8FA</color>
+    <color name="snowy">#E5E5EA</color>
+    <color name="stormy">#5856D6</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#007AFF</color>
+    <color name="gradient_end">#5AC8FA</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#34C759</color>
+    <color name="warning">#FF9500</color>
+    <color name="error">#FF3B30</color>
+    
+    <!-- Favorite Color -->
+    <color name="favorite_color">#FF3B30</color>
+    
+    <!-- Settings Colors -->
+    <color name="background_color">@color/background_light</color>
+    <color name="text_primary">@color/text_primary_light</color>
+    <color name="text_secondary">@color/text_secondary_light</color>
+</resources>

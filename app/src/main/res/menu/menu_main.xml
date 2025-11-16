@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_history"
+        android:title="Lịch sử"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Cài đặt"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_charts"
+        android:title="Biểu đồ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_language"
+        android:title="Ngôn ngữ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="Giới thiệu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Đăng xuất"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_admin"
+        android:title="Admin"
+        app:showAsAction="never" />
+
+</menu>

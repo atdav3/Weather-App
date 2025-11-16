@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Thời tiết</string>
+    
+    <!-- Main Screen -->
+    <string name="current_weather">Thời tiết hiện tại</string>
+    <string name="weather_details">Chi tiết thời tiết</string>
+    <string name="location">Địa điểm</string>
+    <string name="temperature">Nhiệt độ</string>
+    <string name="feels_like">Cảm giác như %1$s</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="wind_speed">Tốc độ gió</string>
+    <string name="pressure">Áp suất</string>
+    <string name="visibility">Tầm nhìn</string>
+    <string name="uv_index">Chỉ số UV</string>
+    
+    <!-- Weather Conditions -->
+    <string name="sunny">Nắng</string>
+    <string name="cloudy">Âm u</string>
+    <string name="partly_cloudy">Ít mây</string>
+    <string name="rainy">Mưa</string>
+    <string name="snowy">Tuyết</string>
+    <string name="stormy">Bão</string>
+    <string name="foggy">Sương mù</string>
+    <string name="clear">Quang đãng</string>
+    <string name="weather_icon">Biểu tượng thời tiết</string>
+    <string name="chart_type">Loại biểu đồ</string>
+    <string name="select_chart_type">Chọn loại biểu đồ</string>
+    <string name="chart_statistics">Thống kê</string>
+    <string name="average">Trung bình</string>
+    <string name="highest">Cao nhất</string>
+    <string name="lowest">Thấp nhất</string>
+    
+    <!-- Forecast -->
+    <string name="hourly_forecast">Dự báo theo giờ</string>
+    <string name="daily_forecast">Dự báo 3 ngày</string>
+    <string name="today">Hôm nay</string>
+    <string name="tomorrow">Ngày mai</string>
+    
+    <!-- Units -->
+    <string name="celsius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="kmh">km/h</string>
+    <string name="mph">mph</string>
+    <string name="hpa">hPa</string>
+    <string name="km">km</string>
+    <string name="miles">miles</string>
+    <string name="percent">%</string>
+    
+    <!-- Messages -->
+    <string name="loading">Đang tải dữ liệu thời tiết…</string>
+    <string name="error_network">Lỗi mạng. Vui lòng kiểm tra kết nối.</string>
+    <string name="error_location">Không thể lấy vị trí của bạn.</string>
+    <string name="error_general">Đã có lỗi xảy ra. Vui lòng thử lại.</string>
+    <string name="refresh">Làm mới</string>
+    <string name="retry">Thử lại</string>
+    
+    <!-- Permission Messages -->
+    <string name="permission_location_title">Quyền vị trí</string>
+    <string name="permission_location_message">Ứng dụng cần quyền vị trí để hiển thị thời tiết tại vị trí hiện tại của bạn.</string>
+    <string name="permission_granted">Đã cấp quyền</string>
+    <string name="permission_denied">Từ chối quyền</string>
+    
+    <!-- Search -->
+    <string name="search">Tìm kiếm</string>
+    <string name="menu">Menu</string>
+    <string name="search_city">Tìm thành phố…</string>
+    <string name="search_hint">Nhập tên thành phố</string>
+    <string name="search_no_results">No cities found</string>
+    <string name="search_error">Error searching cities</string>
+    <string name="current_location_tooltip">Use current location</string>
+    
+    <!-- Time -->
+    <string name="last_updated">Cập nhật lần cuối: %1$s</string>
+    <string name="sunrise">Bình minh</string>
+    <string name="sunset">Hoàng hôn</string>
+    
+    <!-- Loading states -->
+    <string name="loading_location">Đang lấy vị trí…</string>
+    <string name="loading_temp">--°</string>
+    <string name="loading_feels_like">Feels like --°</string>
+    <string name="loading_percent">--%</string>
+    <string name="loading_value">--</string>
+    
+    <!-- Weather Map -->
+    <string name="weather_map">Bản đồ thời tiết</string>
+    <string name="back">Quay lại</string>
+    <string name="map_type">Loại bản đồ</string>
+    <string name="weather_layers">Lớp thời tiết</string>
+    <string name="precipitation">Lượng mưa</string>
+    <string name="wind">Gió</string>
+    <string name="current_location">Vị trí hiện tại</string>
+    <string name="tap_to_select_location">Chạm vào bản đồ để chọn vị trí</string>
+    <string name="loading_map">Đang tải bản đồ…</string>
+    <string name="map_error">Lỗi tải bản đồ</string>
+    <string name="location_permission_required">Cần quyền vị trí cho tính năng bản đồ</string>
+    
+    <!-- Theme -->
+    <string name="toggle_theme">Toggle Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_auto">Auto Theme</string>
+    
+    <!-- Detailed Weather -->
+    <string name="detailed_weather">Thời tiết chi tiết</string>
+    <string name="share">Chia sẻ</string>
+    <string name="current_conditions">Điều kiện hiện tại</string>
+    <string name="high_temp">Cao nhất</string>
+    <string name="low_temp">Thấp nhất</string>
+    <string name="wind_direction">Hướng gió</string>
+    <string name="additional_details">Chi tiết bổ sung</string>
+    <string name="dew_point">Điểm sương</string>
+    <string name="cloud_cover">Mây che phủ</string>
+    <string name="precipitation_chance">Khả năng mưa</string>
+    
+    <!-- Weather Charts -->
+    <string name="weather_charts">Biểu đồ thời tiết</string>
+    <string name="temperature_chart">Biểu đồ nhiệt độ</string>
+
+    <!-- Common runtime messages -->
+    <string name="weather_info_marker">Thông tin thời tiết</string>
+    <string name="error_load_weather">Tải dữ liệu thời tiết thất bại</string>
+    <string name="error_network_prefix">Lỗi mạng: %1$s</string>
+    <string name="location_error_prefix">Lỗi vị trí: %1$s</string>
+    <string name="location_permission_denied">Từ chối quyền vị trí</string>
+    <string name="charts_coming_soon">Biểu đồ sẽ có sớm!</string>
+    
+    <!-- UI Customization -->
+    <string name="ui_customization">UI Customization</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="background_style">Background Style</string>
+    <string name="card_style">Card Style</string>
+    <string name="animation_speed">Animation Speed</string>
+    <string name="font_size">Font Size</string>
+    <string name="layout_density">Layout Density</string>
+    <string name="preset_themes">Preset Themes</string>
+    <string name="reset_to_default">Reset to Default</string>
+    <string name="ocean_theme">Ocean</string>
+    <string name="sunset_theme">Sunset</string>
+    <string name="forest_theme">Forest</string>
+    <string name="minimal_theme">Minimal</string>
+    <string name="vibrant_theme">Vibrant</string>
+    
+    <!-- Weather Calendar -->
+    <string name="weather_calendar">Lịch thời tiết</string>
+    <string name="add_event">Thêm sự kiện</string>
+    <string name="calendar">Lịch</string>
+    <string name="weather_events">Sự kiện thời tiết</string>
+    <string name="no_weather_events">Không có sự kiện thời tiết cho ngày này</string>
+    <string name="forecast_for_date">Dự báo cho ngày đã chọn</string>
+    <string name="weather_forecast">Dự báo thời tiết</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_history">Lịch sử &amp; Yêu thích</string>
+    <string name="menu_charts">Biểu đồ</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_language">Ngôn ngữ</string>
+    <string name="menu_about">Giới thiệu</string>
+</resources>
