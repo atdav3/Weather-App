@@ -76,14 +76,14 @@
 
 1. **Clone repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd App
+git clone https://github.com/atdav3/Weather-App.git
+cd Weather-App
 ```
 
 2. **Mở project trong Android Studio**
    - Mở Android Studio
    - Chọn `Open an existing project`
-   - Chọn thư mục `App`
+   - Chọn thư mục `Weather-App`
 
 3. **Cấu hình Google Maps API Key**
    - Tạo API key tại [Google Cloud Console](https://console.cloud.google.com/)
