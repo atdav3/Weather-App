@@ -211,7 +211,7 @@ Project này được phân phối dưới giấy phép MIT. Xem file `LICENSE` 
 
 ## 👨‍💻 Tác giả
 
-Được phát triển bởi [Tên của bạn]
+Được phát triển bởi atdav3
 
 ## 📞 Liên hệ
 
